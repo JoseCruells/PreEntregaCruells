@@ -7,26 +7,24 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+  <section class="block">
     <div id="loancal"> </div>
     <h1>Calculadora de Prestamos</h1>
-    <div id="loancal"> </div>
     <div class="input">
-        <p>Valor del Prestamo: $</p>
-        <label for="amount">numero</label>
+        <p><strong>Valor del Prestamo: $</strong></p>
+        <label for="amount">Cantidad</label>
         <input id="amount" type="number" min="1" max="5000000" onchange="computeLoan()" aria-labelledby="input">
-        <p>Intereses: %</p>
-        <label for="interest_rate">10</label>
+        <p><strong>Intereses %</strong></p>
+        <label for="interest_rate">.</label>
         <input id="interest_rate" min="0" max="100" value="10" step=".1" onchange="computeLoan()">
-        <p>Meses de uotas:</p>
+        <p><strong>Meses de cuotas:</strong></p>
         <label for="months">numero</label> 
         <input id="months" type="number" min="1" max="300" value="1" step="1" onchange="computeLoan()">
       </div>
       <h2 id="payment"></h2>
+    </section>
 
 
-      <script>
-        computeLoan();
-      </script>
       <script src="js/main.js"></script>
 </body>
 </html>

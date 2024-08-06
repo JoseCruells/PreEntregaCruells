@@ -1,1 +1,16 @@
+body{
+    background-color: black;
+}
+.block{
+    text-align: center;
+    width: 345px; 
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
 
